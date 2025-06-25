@@ -2,5 +2,5 @@
 
 from functools import reduce
 
-numero_concatenado = int(((reduce( lambda x, y: str(x) + str(y), [5,7,2,3,4]))))
+numero_concatenado = int(reduce( lambda x, y: str(x) + str(y), [5,7,2,3,4]))
 print(numero_concatenado)

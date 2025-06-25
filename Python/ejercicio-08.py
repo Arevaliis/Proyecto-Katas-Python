@@ -12,4 +12,5 @@ def division(x, y):
         print("INGRESE SOLO NUMEROS")
     except ZeroDivisionError:
         print("NO PUEDE DIVIDIR POR CERO")
+        
 division(input("Dividendo: "), input("Divisor: "))
